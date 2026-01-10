@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['fence', 'person']
+
+roboflow:
+  workspace: shihab-sarar-936jx
+  project: threat-detection-x42o1
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/shihab-sarar-936jx/threat-detection-x42o1/1
